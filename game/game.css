@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+body {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 5vh;
+  background-image: url("/img/kak-izmenilas-karta-dota-2-vse-obnovleniya-karty-v-patche-7-38-na-skrinshotah_1739933718349508983.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  overflow: hidden;
+}
+
+.settings__button {
+  color: white;
+  width: 5vh;
+  height: 5vh;
+}
+
+.registration__container {
+  display: none;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.post__button {
+  width: 30vh;
+  height: 5vh;
+  color: white;
+  background: rgb(26, 170, 26);
+  border: rgb(19, 156, 19) solid;
+  border-radius: 20px;
+}
+.post__button:active {
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.button__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 550px;
+}
+
+.button {
+  width: 400px;
+  height: 30px;
+  color: white;
+  background: rgb(26, 170, 26);
+  border: rgb(19, 156, 19) solid;
+  border-radius: 20px;
+}
+
+.button:active {
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.wave__radiant {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: green;
+  border-radius: 50%;
+  border: 3px solid;
+  margin-top: 45vh;
+  margin-left: 60vh;
+}
+
+.wave__dire {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  border: 3px solid;
+  margin-left: 890px;
+  margin-top: 100px;
+}
+
+.header__img {
+  width: 40px;
+  height: 40px;
+}
+
+.header__money {
+  font-size: 20px;
+}
+
+.money {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.time {
+  font-size: 20px;
+}
+
+.shop__container {
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  background-color: #d1eb41;
+  border: green solid;
+  border-radius: 20px;
+  position: absolute;
+}
+.close__button {
+  width: 40px;
+  height: 40px;
+  margin-left: 83%;
+}
