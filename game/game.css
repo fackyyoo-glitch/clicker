@@ -186,3 +186,28 @@ body {
   border: none;
   font-weight: bold;
 }
+
+.info {
+  font-family: "lapkoi Light";
+  font-size: 30px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/backgroundShop.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: black solid;
+  border-radius: 20px;
+  margin-left: 450px;
+  overflow-y: auto;
+}
+
+.skill__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.shop__button__container__second {
+  display: none;
+}
