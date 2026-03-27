@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
+@font-face {
+  font-family: "lapkoi Light";
+  src: url("/fonts/lapkoi.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
@@ -9,7 +17,6 @@ body {
   background-image: url("/img/kak-izmenilas-karta-dota-2-vse-obnovleniya-karty-v-patche-7-38-na-skrinshotah_1739933718349508983.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100vh;
-  overflow: hidden;
 }
 
 .settings__button {
@@ -114,16 +121,93 @@ body {
 }
 
 .shop__container {
-  width: 300px;
-  height: 500px;
-  margin-left: 20px;
-  background-color: #d1eb41;
-  border: green solid;
+  font-family: "lapkoi Light";
+  font-size: 30px;
+  width: 370px;
+  height: 540px;
+  margin-left: 40px;
+  background-image: url(/img/backgroundShop.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: black solid;
   border-radius: 20px;
   position: absolute;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.7) transparent;
 }
 .close__button {
   width: 40px;
   height: 40px;
-  margin-left: 83%;
+  margin-top: 2px;
+  margin-left: 87%;
+}
+
+.shop__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.shop__img {
+  height: 220px;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.description {
+  font-size: 25px;
+  margin: 10px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-indent: 10px;
+}
+
+.skill__img {
+  width: 50px;
+  height: 30px;
+}
+
+.shop__button__container {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  gap: 120px;
+}
+
+.shop__button {
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+.info {
+  font-family: "lapkoi Light";
+  font-size: 30px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/backgroundShop.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: black solid;
+  border-radius: 20px;
+  margin-left: 450px;
+  overflow-y: auto;
+}
+
+.skill__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.shop__button__container__second {
+  display: none;
 }
